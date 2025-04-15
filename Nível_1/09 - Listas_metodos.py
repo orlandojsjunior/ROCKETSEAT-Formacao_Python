@@ -38,21 +38,25 @@ print("Adicionando um elemento ao final da lista:", minha_lista)  # Exibe a list
 
 
 # 2. Metodo index(): Retorna o índice do primeiro elemento igual ao valor especificado
+
 indice = minha_lista.index(6)  # Obtém o índice do elemento 6
 print("Retorna o índice do primeiro elemento igual ao valor especificado:", indice)  # Exibe o índice do elemento 6
 
 
 # 3. Metodo insert(): Insere um elemento em um índice específico
+
 minha_lista.insert(2, 10)  # Insere o elemento 10 no índice 2
 print("Insere um elemento em um índice específico:", minha_lista)  # Exibe a lista após a inserção do elemento
 
 
 # 4. Metodo pop(): Remove o último elemento da lista e o retorna
+
 elemento_removido = minha_lista.pop(3)  # Remove o último elemento da lista
 print("Remove o último elemento da lista e o retorna:", elemento_removido)  # Exibe o elemento removido
 print("Exibindo lista após o pop:", minha_lista)  # Exibe a lista após a remoção do elemento
 
 
 # 5. Metodo remove(): Remove o primeiro elemento com o valor especificado
+
 minha_lista.remove(True)  # Remove o elemento True da lista
 print("Remove o primeiro elemento com o valor especificado:", minha_lista)  # Exibe a lista após a remoção do elemento
