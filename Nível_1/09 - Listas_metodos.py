@@ -67,19 +67,21 @@ print("Remove o primeiro elemento com o valor especificado:", minha_lista)  # Ex
 '''
 ATENÇÃO: O método sort só funciona corretamente se todos os elementos da lista forem do mesmo tipo.
 minha_lista.sort()  # Organiza a lista em ordem crescente
-print("Organiza uma lista:", minha_lista)  # Exibe a lista organizada - Vai exibir mensagem de erro pois a lista nao atende os requisitos para o sort
+print("Organiza uma lista:", minha_lista)  # Exibe a lista organizada - Nesse caso vai exibir mensagem de erro pois a lista não atende os requisitos para o sort
 
 '''
 
 # Criei uma lista com números inteiros para demonstrar o método sort
-# Criando uma lista desorganizada com números
+
 lista_desorganizada = [5, 2, 9, 1, 7, 3]
 print("Lista desorganizada:", lista_desorganizada)  # Exibe a lista desorganizada
 
 # Organizando a lista em ordem crescente
+
 lista_desorganizada.sort()
 print("Lista organizada em ordem crescente:", lista_desorganizada)
 
 # Organizando a lista em ordem decrescente
+
 lista_desorganizada.sort(reverse=True)
 print("Lista organizada em ordem decrescente:", lista_desorganizada)
