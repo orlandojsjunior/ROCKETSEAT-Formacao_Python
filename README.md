@@ -38,3 +38,4 @@ Desenvolvendo aplicações completas utilizando Python e Flask
 - **Aplicações com Redis, Python e Flask**  
 - **RabbitMQ com Python**  
 - **Certificado final**
+
