@@ -19,7 +19,27 @@ Nesta aula, aprendemos sobre dicionários em Python.
 # Criando um dicionário
 
 aluno = {
-    'nome': 'João',
-    'idade': 20,
-    'curso': 'Engenharia de Software'
+    'nome': 'Orlando',
+    'idade': 45,
+    'curso': 'Formação Python',
 }
+
+print(f"Dicionario {aluno}")  # Exibindo o dicionário completo
+
+print(f"Nome: {aluno['nome']}")  # Exibindo o valor associado à chave 'nome'
+
+print(f"Idade: {aluno['idade']}")  # Exibindo o valor associado à chave 'idade'
+
+print(f"Curso: {aluno['curso']}")  # Exibindo o valor associado à chave 'curso'
+
+print(f"Tipo: {type(aluno)}")  # Exibindo o tipo do objeto 'aluno'
+
+print(f"Chaves: {aluno.keys()}")  # Exibindo todas as chaves do dicionário
+
+# Adicionando novos pares chave-valor ao dicionário
+aluno['Telefone'] = '11 99999-9999'
+aluno['Endereco'] = 'Rua das Flores, 123'
+aluno['Sobrenome'] = 'Junior'
+
+print(f"Dicionario Atualizado {aluno}") 
+print(f"Sobrenome: {aluno['Sobrenome']}") # Exibindo o sobrenome
