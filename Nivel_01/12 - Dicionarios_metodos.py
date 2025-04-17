@@ -1,6 +1,5 @@
 '''
 Principais conceitos sobre dicionários:
-Nesta aula, continuamos nossos estudos sobre dicionários em Python.
 
 - Atualizando valores:
     - Para atualizar um valor existente em um dicionário, utilizamos a mesma sintaxe de criação.
