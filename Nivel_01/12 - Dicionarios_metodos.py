@@ -27,7 +27,7 @@ print(f"Dicionário: {aluno}")
 
 # Adicionando novos pares chave-valor ao dicionário
 aluno['Telefone'] = '11 99999-9999'
-aluno['Endereco'] = 'Rua das Flores, 123'
+aluno['Endereco'] = 'Rua Principal, 123'
 aluno['Sobrenome'] = 'Junior'
 
 # Exibindo o dicionário atualizado
