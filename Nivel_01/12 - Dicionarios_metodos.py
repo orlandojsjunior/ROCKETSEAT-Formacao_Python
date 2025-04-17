@@ -19,7 +19,7 @@ Nesta aula, continuamos nossos estudos sobre dicionários em Python.
 # Dicionario da aula anterior
 aluno = {
     'nome': 'Orlando',
-    'idade': 45,
+    'idade': 44,
     'curso': 'Formação Python',
 }
 
@@ -39,7 +39,7 @@ print(f"Sobrenome: {aluno['Sobrenome']}")
 
 
 # Atualizando valores no dicionário
-aluno["idade"] = 31
+aluno["idade"] = 45
 print("Idade atualizada:", aluno["idade"])
 
 # Removendo um par chave-valor
