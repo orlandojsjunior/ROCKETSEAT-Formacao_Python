@@ -1,5 +1,4 @@
-"""
-Nesta aula, vamos aprender sobre loops em programação. 
+'''
 Os loops são estruturas que nos permitem repetir um bloco de código enquanto uma condição for verdadeira. 
 
 Existem dois tipos de loops: o "for" e o "while". 
@@ -10,7 +9,7 @@ Vamos começar vendo como o loop "for" funciona com listas.
 Em seguida, veremos como utilizá-lo com tuplas e dicionários. 
 
 Com dicionários, podemos imprimir as chaves, os valores ou ambos juntos.
-"""
+'''
 
 
 print("for utilizando lista")
@@ -25,7 +24,7 @@ tupla = (1, 2, 3, 4, 5)
 for elemento in tupla:
   print(elemento)
 
-''' 
+
 pessoa = {"nome": "João", "idade": 30, "cidade": "São Paulo"}
 print("For utilizando dicionatio - chaves")
 for chave in pessoa.keys():
@@ -38,4 +37,3 @@ for valor in pessoa.values():
 print("\nFor utilizando dicionatio - items")
 for chave, valor in pessoa.items():
   print(f"{chave}: {valor}")
-'''
