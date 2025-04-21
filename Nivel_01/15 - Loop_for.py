@@ -30,9 +30,11 @@ print("For utilizando dicionatio - chaves")
 for chave in pessoa.keys():
   print(chave)
 
+
 print("\nFor utilizando dicionatio - valores")
 for valor in pessoa.values():
   print(valor)
+
 
 print("\nFor utilizando dicionatio - items")
 for chave, valor in pessoa.items():
