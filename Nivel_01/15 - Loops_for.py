@@ -65,6 +65,7 @@ print("\n Utilizando a função range()")
 for numero in range(5):
   print("Numero:", numero)
 
+
 print("\n Utilizando a função range() com len()")
 lista = [1, 2, 3, 4, 5]
 for indice in range(0, len(lista)):
@@ -75,6 +76,7 @@ for indice in range(0, len(lista)):
   else:
     lista[indice] = 0
 print(lista)
+
 
 # enumerate()
 lista_enumerate = ["a", "b", "c"]
