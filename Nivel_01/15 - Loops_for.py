@@ -46,7 +46,7 @@ for chave, valor in pessoa.items():
 # Continuação Loop for
 
 '''
-Nesta aula, vamos explorar algumas técnicas úteis para aprimorar o uso do loop "for". 
+Explorando algumas técnicas úteis para aprimorar o uso do loop "for". 
 
 1. **Função range()**: 
   A função `range()` é usada para gerar uma sequência de números, o que facilita a criação de listas numéricas sem a necessidade de declarar manualmente cada elemento.
