@@ -17,30 +17,29 @@ print("for utilizando lista")
 
 lista = [1, 2, 3, 4, 5]
 for elemento in lista:
-  print(elemento)
+    print(elemento)
 
 
-print("For utilizando tupla") #TODO: teste 01
+print("For utilizando tupla")  # TODO: teste 01
 tupla = (1, 2, 3, 4, 5)
 for elemento in tupla:
-  print(elemento)
+    print(elemento)
 
 
 pessoa = {"nome": "João", "idade": 30, "cidade": "São Paulo"}
 print("For utilizando dicionatio - chaves")
 for chave in pessoa.keys():
-  print(chave)
+    print(chave)
 
 
 print("\nFor utilizando dicionatio - valores")
 for valor in pessoa.values():
-  print(valor)
+    print(valor)
 
 
 print("\nFor utilizando dicionatio - items")
 for chave, valor in pessoa.items():
-  print(f"{chave}: {valor}")
-
+    print(f"{chave}: {valor}")
 
 
 # Continuação Loop for
@@ -63,24 +62,24 @@ Essas ferramentas são amplamente utilizadas em programação e ajudam a tornar 
 # [0,1,2,3,4]
 print("\n Utilizando a função range()")
 for numero in range(5):
-  print("Numero:", numero)
+    print("Numero:", numero)
 
 
 print("\n Utilizando a função range() com len()")
 lista = [1, 2, 3, 4, 5]
 for indice in range(0, len(lista)):
-  print("Indice:", indice)
-  print("Elemento:", lista[indice])
-  if indice == 3:
-    lista[indice] = 5
-  else:
-    lista[indice] = 0
+    print("Indice:", indice)
+    print("Elemento:", lista[indice])
+    if indice == 3:
+        lista[indice] = 5
+    else:
+        lista[indice] = 0
 print(lista)
 
 
 # enumerate()
 lista_enumerate = ["a", "b", "c"]
 for indice, valor in enumerate(lista_enumerate):
-  print(f"{indice}: {valor}")
-  if indice == 1:
-    print("Idice 1")
+    print(f"{indice}: {valor}")
+    if indice == 1:
+        print("Indice 1")
