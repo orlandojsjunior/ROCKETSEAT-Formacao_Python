@@ -7,13 +7,8 @@ Podemos:
 1. Criar um contador que começa em 0 e é incrementado a cada iteração do loop:
     - O loop continua enquanto o contador for menor que 5.
     - Podemos usar o `break` para sair do loop em uma condição específica.
-2. Aplicar o `while` em projetos práticos, como criar um menu para um gerenciador de lista de tarefas:
-    - Repetir o menu até que o usuário escolha a opção de sair.
-    - Permitir a execução de diferentes ações com base na escolha do usuário.
-
 '''
-
-# Loop while
+# Exemplo de loop while com contador
 
 print("Exemplo de while")
 contador = 0
